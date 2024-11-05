@@ -1,82 +1,64 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/best-apple-pie-from-scratch-500x375.jpg",
+            "imgName": "Apple Pie",
+            "imgRank": "#1",
+            "description": "Apple pie is a sweet dessert made with sliced apples, sugar, and spices, baked inside a flaky pastry crust."
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/food/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+            "imgName": "Chocolate Chip Cookies",
+            "imgRank": "#2",
+            "description": "Chocolate chip cookies are sweet, soft, or crispy baked treats filled with chocolate chips that melt in your mouth."
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/food/23990_sfs-bagel-v2-14.jpg",
+            "imgName": "Bagels",
+            "imgRank": "#3",
+            "description": "Bagels are round, dense bread rolls with a hole in the center, typically boiled before baking for a chewy texture."
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/food/15869-cream-puffs-DDMFS-4x3-1ce08744f7354e81b8c88950f9d93888.jpg",
+            "imgName": "Cream Puffs",
+            "imgRank": "#4",
+            "description": "Cream puffs are light pastry shells filled with sweet, fluffy cream, often dusted with powdered sugar."
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/food/17891-golden-sweet-cornbread-ddmfs-beauty-4x3-BG-25990-bcabebac0323419abdf0497ee3383003.jpg",
+            "imgName": "Cornbread",
+            "imgRank": "#5",
+            "description": "Cornbread is a moist, crumbly bread made from cornmeal, often slightly sweet, and commonly enjoyed as a side dish in Southern cuisine."
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/food/6766oatmeal-blueberry-muffinsKim4x3-78fec06db1dd4580843eaa724cedecbc.jpg",
+            "imgName": "Blueberry Muffins",
+            "imgRank": "#6",
+            "description": "Blueberry muffins are soft, sweet baked treats filled with juicy blueberries and a hint of vanilla flavor."
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/food/baileys-chocolate-whoopie-pies-open-graph-image.jpg",
+            "imgName": "Whoopie Pie",
+            "imgRank": "#7",
+            "description": "A whoopie pie is a sweet treat made of two soft, cake-like cookies sandwiching a creamy filling, often resembling a fluffy chocolate sandwich cake."
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/food/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg",
+            "imgName": "Red Velvet Cake",
+            "imgRank": "#8",
+            "description": "Red velvet cake is a moist, tender chocolate cake with a hint of cocoa, a deep red color, and a creamy, tangy cream cheese frosting."
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/food/Simply-Recipes-Easy-Banana-Bread-LEAD-2-2-63dd39af009945d58f5bf4c2ae8d6070.jpg",
+            "imgName": "Banana Bread",
+            "imgRank": "#9",
+            "description": "Banana bread is a moist, sweet bread made with ripe bananas, often enjoyed as a snack or dessert."
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/food/13PRETZELSREX-hvtc-superJumbo.jpg",
+            "imgName": "Pretzels",
+            "imgRank": "#10",
+            "description": "Pretzels are twisted, baked snacks made from dough, often salted and sometimes flavored, with a chewy or crunchy texture."
         }
-  ]
+    ]
 }
