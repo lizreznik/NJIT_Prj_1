@@ -35,8 +35,9 @@ function fetchJSON() {
     method: 'GET',
     success: function (data) {
       mImages = data.images
+      console.log(mImages[mCurrentIndex])
+
       swapPhoto()
-      console.log(mImages)
     },
     error: function () {
       alert("Failed to load!");
@@ -53,10 +54,13 @@ function fetchJSON() {
 // Function to swap and display the next photo in the slideshow
 function swapPhoto() {
   const image = mImages[mCurrentIndex]
+
   $('#photo').attr('src', `${image.imgPath}`);
   $('.name').text(`${image.imgName}`);
   $('.rank').text(`${image.imgRank}`);
   $('.description').text(`${image.description}`);
+
+  console.log(image)
   // Access mImages[mCurrentIndex] to update the image source and details
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
@@ -66,12 +70,25 @@ function swapPhoto() {
 function showNextPhoto() {
   // Increment mCurrentIndex and call swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  mCurrentIndex++;
+  if (mCurrentIndex === mImages.length) {
+    mCurrentIndex = 0;
+  }
+  swapPhoto();
+
+
+
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto() {
   // Decrement mCurrentIndex and call swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
+  mCurrentIndex--;
+  if (mCurrentIndex < 0) {
+    mCurrentIndex = 9;
+  }
+  swapPhoto();
 }
 
 // Starter code for the timer function
